@@ -26,6 +26,21 @@ CURSORS = %w[
 	size_hor size_ver text top_left_corner top_right_corner
 	top_side up-arrow vertical-text wait
 	wayland-cursor x-cursor zoom-in zoom-out
+	bd_double_arrow
+	bottom_tee
+	dnd-ask
+	dnd-link
+	dotbox
+	fd_double_arrow
+	left_tee
+	right_tee
+	sb_down_arrow
+	sb_left_arrow
+	sb_right_arrow
+	sb_up_arrow
+	tcross
+	top_tee
+
 ].freeze
 
 ATTRIBUTES = <<~'EOF'.split(?%).each(&:strip!).freeze
@@ -216,6 +231,34 @@ ATTRIBUTES = <<~'EOF'.split(?%).each(&:strip!).freeze
 	64 30 30 zoom-in
 	%
 	64 30 30 zoom-out
+	%
+	64 30 30 bd_double_arrow
+	%
+	64 30 30 bottom_tee
+	%
+	64 30 30 dnd-ask
+	%
+	64 30 30 dnd-link
+	%
+	64 30 30 dotbox
+	%
+	64 30 30 fd_double_arrow
+	%
+	64 30 30 left_tee
+	%
+	64 30 30 right_tee
+	%
+	64 30 30 sb_down_arrow
+	%
+	64 30 30 sb_left_arrow
+	%
+	64 30 30 sb_right_arrow
+	%
+	64 30 30 sb_up_arrow
+	%
+	64 30 30 tcross
+	%
+	64 30 30 top_tee
 EOF
 
 
